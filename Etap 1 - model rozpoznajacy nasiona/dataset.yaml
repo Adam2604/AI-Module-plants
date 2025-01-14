@@ -1,0 +1,4 @@
+train: C:/Users/lapto/Downloads/projAJ/images/train
+val: C:/Users/lapto/Downloads/projAJ/images/val
+nc: 1
+names: ['nasiono']
