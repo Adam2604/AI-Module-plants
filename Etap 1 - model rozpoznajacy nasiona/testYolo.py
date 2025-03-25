@@ -4,14 +4,14 @@ import matplotlib.pyplot as plt
 import os
 
 # Załaduj wytrenowany model
-model = YOLO("runs/detect/train17/weights/best.pt")  # Zaktualizuj ścieżkę do swojego wytrenowanego modelu
+model = YOLO("C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/Modul-AI-roslinki/Etap 1 - model rozpoznajacy nasiona/runs/detect/train17/weights/best.pt")  # Zaktualizuj ścieżkę do swojego wytrenowanego modelu
 
 # Lista ścieżek do testowych zdjęć
 image_paths = [
     
-    "C:/Users/lapto/Downloads/projAJ/test4.jpg",
-    "C:/Users/lapto/Downloads/projAJ/test5.jpg",
-    "C:/Users/lapto/Downloads/projAJ/test6.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/Modul-AI-roslinki/Etap 1 - model rozpoznajacy nasiona/test/test4.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/Modul-AI-roslinki/Etap 1 - model rozpoznajacy nasiona/test/test5.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/Modul-AI-roslinki/Etap 1 - model rozpoznajacy nasiona/test/test6.jpg",
     # Dodaj kolejne ścieżki zdjęć
 ]
 
@@ -41,4 +41,3 @@ for image_path in image_paths:
     # Wyświetlenie obrazu z wykrytymi nasionami
     fig, ax = plt.subplots(figsize=(10, 10))
     ax.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-    plt.show()

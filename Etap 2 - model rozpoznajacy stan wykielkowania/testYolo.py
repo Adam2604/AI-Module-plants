@@ -4,18 +4,18 @@ import matplotlib.pyplot as plt
 import os
 
 # Ładowanie modelu
-model = YOLO("runs/detect/train40/weights/best.pt")  # Załaduj właściwy model
+model = YOLO("C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowania/runs/detect/train40/weights/best.pt")  # Załaduj właściwy model
 
 # Lista ścieżek do testowych zdjęć
 image_paths = [
-    "C:/Model001/test/test1.jpg",
-    "C:/Model001/test/test6.jpg",
-    "C:/Model001/test/test8.jpg",
-    "C:/Model001/test/test9.jpg",
-    "C:/Model001/test/test10.jpg",
-    "C:/Model001/test/test_3dzien1.jpg",
-    "C:/Model001/test/test_3dzien2.jpg",
-    "C:/Model001/test/test_3dzien2.jpg"
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowania/test/test1.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium\Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowania/test/test6.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium\Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowania/test/test8.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium\Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowania/test/test9.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium\Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowania/test/test10.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium\Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowania/test/test_3dzien1.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium\Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowania/test/test_3dzien2.jpg",
+    "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium\Modul-AI-roslinki/Etap 2 - model rozpoznajacy stan wykielkowani/test/test_3dzien2.jpg"
 ]
 
 # Ustawienie progu zaufania
