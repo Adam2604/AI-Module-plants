@@ -1,5 +1,5 @@
-Projekt realizowany w Kole Naukowym Spektrum działającym na Politechnice Poznańskiej.
+The project is being carried out within the "Spektrum" Student Research Group at Poznan University of Technology.
 
-Założeniem jest stworzenie modułu sztucznej inteligencji który rozpoznaje stan wykiełkowanych nasion po to aby zbadać wpływ pola elektromagnetycznego na rozwój roślin. 
-Na ten moment jest to wstępny moduł, który działa w miarę dobrze. Do lipca tego roku planowane jest rozszerzenie bazy zdjęć oraz praca nad udoskonaleniem wyników po czym moduł zostanie zintegrowany z raspberry pi obsługującym kamerę w komorze badawczej i zebranie wyników.
-Projekt znalazł się w finale konkursu na Najlepszy Studencki Projekt w Dziedzinie Cyfrowego Przetwarzania Sygnałów i w lipcu zostanie zaprezentowany na konferencji Signal Processing Symposium w Warszawie.
+The goal is to develop an artificial intelligence module that recognizes the germination state of seeds to study the impact of electromagnetic fields on plant growth. At this stage, it is a preliminary module that works fairly well. By July this year, the plan is to expand the image database and improve the accuracy of results, after which the module will be integrated with a Raspberry Pi operating a camera in the research chamber to collect data.
+
+The project has reached the finals of the competition for the Best Student Project in the Field of Digital Signal Processing and will be presented at the Signal Processing Symposium in Warsaw in July.
