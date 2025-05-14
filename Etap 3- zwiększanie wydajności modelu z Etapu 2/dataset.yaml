@@ -1,0 +1,20 @@
+train: C:/Model001/images/train1
+val: C:/Model001/images/val1
+nc: 2
+names: ['wykielkowane', 'niewykielkowane']
+
+optimizer: Adam
+lr0: 0.0005
+momentum: 0.9
+weight_decay: 0.0005
+
+augmentation:
+  fliplr: 0.7
+  degrees: 45
+  scale: 0.5  # Większy zakres skalowania
+  shear: 3.0
+  hsv_h: 0.03  # Zwiększ zmiany odcienia
+  hsv_s: 0.5   # Zwiększ zmiany nasycenia
+  hsv_v: 0.3   # Zwiększ zmiany jasności
+
+
