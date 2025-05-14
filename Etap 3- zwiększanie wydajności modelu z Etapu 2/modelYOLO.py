@@ -4,12 +4,12 @@ def main():
     model = YOLO("yolov8s.pt")
 
     results = model.train(
-        data="C:/Model001/dataset.yaml",
+        data="C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/dataset.yaml",
         epochs=50,
-        batch=4,
-        #accumulate = 4,
+        batch=14,
+        #accumulate = 2,
 
-        amp = False,
+        amp = True,
         cache = False,
         device=0,
 
