@@ -5,15 +5,15 @@ def main():
 
     results = model.train(
         data="C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/dataset.yaml",
-        epochs=50,
-        batch=14,
+        epochs=100,
+        batch=9,
         #accumulate = 2,
 
         amp = True,
         cache = False,
         device=0,
 
-        imgsz=1024,
+        imgsz=1280,
         optimizer="Adam",
         lr0=0.0005,
         momentum=0.9,

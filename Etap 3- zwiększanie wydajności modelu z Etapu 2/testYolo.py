@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Ładowanie modelu
-model = YOLO("C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/runs/detect/train4/weights/best.pt")  # Załaduj właściwy model
+model = YOLO("C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/runs/detect/train54/weights/best.pt")  # Załaduj właściwy model
 #TRAIN40,42,50
 
 #DO SAMYCH NASION 21, 27
@@ -16,15 +16,15 @@ image_paths = [
     #"C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/1.jpg",
     #'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/2.jpg',
     #
-    'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/test_9stycznia.jpg',
-    'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/szalka1_9stycznia.jpg',
+    #'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/test_9stycznia.jpg',
+    #'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/szalka1_9stycznia.jpg',
     # 'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/szalka8_9stycznia.jpg',
     # 'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/7_d.jpg',
     # 'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/4.jpg',
     # 'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/11_d.jpg',
     # 'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/14_w.jpg',
-    # 'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/47.jpg',
-    # "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/test2.jpg",
+     #'C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/47.jpg',
+     "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/3.jpg",
     # "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/test6.jpg",
     # "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/test8.jpg",
     # "C:/Users/adamm/OneDrive/Dokumenty/Studia/Spektrum/Repozytorium/AI-Module-plants/Etap 3- zwiększanie wydajności modelu z Etapu 2/test/test9.jpg",
